@@ -1,0 +1,225 @@
+body{
+    margin: 0px;
+    background-color: whitesmoke;
+}
+
+/* #3d70b2 header bg color
+ * #00a8ec buttons ask logo
+ * white #f6f6f6 */
+header
+{
+    background-color: #3d70b2;
+    height: 66px;
+    color: white;
+}
+
+header .logo
+{
+    float: left;
+    margin-left: 2em;
+    
+}
+header .logo-text
+{
+    font-family: 'Candal';
+    margin: 9px;
+    color: #f6f6f6;
+}
+header .logo-text span{
+    color: #00a8ec;
+}
+header ul
+{
+    float: right;
+    list-style: none;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 10px ;
+    font-family: 'Lara';
+    z-index: 999999999;
+}
+header ul li
+{
+    display: inline-block;
+    position: relative;
+}
+header ul li ul
+{
+    position: absolute;
+    top: 66px;
+    right: 0px;
+    left: 0px;
+    width: fit-content;
+    display: none;
+    background-color: white;
+    z-index: 9999;
+}
+
+
+header ul li a
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 21px;
+    font-size: 1.2em;
+}
+header ul li a:hover
+{
+    background-color: #006669;
+    transition: ease 0.5s;
+     
+
+    cursor: pointer;
+      
+}
+
+
+a.ask{
+    background-color: white;
+    color: black;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 1px solid white;
+    border-radius: 30px;
+   
+}
+.search input{
+    float: ;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-right: 16px;
+    font-size: 17px;
+    width: 1000px;
+    margin-left: 170px;
+    border-radius: 10px;
+    position: relative;
+   
+}
+.search .sbutton
+{
+    position: absolute;
+    right: 150px;
+    width: 70px;
+    border: 1px solid black;
+    background: grey;
+    cursor: pointer;
+}
+.ques1{
+    margin-top: 75px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    float: left;
+    font-size: 30px;
+}
+.main-content{
+    float: left;
+    margin: 0px auto;
+    /* padding-left: 10px; */
+    text-align: left;
+    background-color: white;
+    padding-left: 0%;
+    /* padding-right: 100%; */
+    
+    
+}
+.prev{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #00a8ec;
+    color: white;
+    font-size: 15px;
+
+
+}
+.next{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #00a8ec;
+    color: white;
+    font-size: 15px;
+
+}
+
+/* login page */
+.auth-content
+{
+    width: 30%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.auth-content .form-title
+{
+    text-align: center;
+}
+
+.auth-content form div
+{
+    margin-bottom: 10px;
+}
+.btn-big
+{
+    background-color: #008489;
+    color: white;
+    padding: 5px;
+    font-size: 1em;
+    font-family: 'Lora';
+}
+.form-title{
+    text-align: center;
+
+}
+
+.page-wrapper
+{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.content
+{
+    width: 95%;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+.main-content
+{
+    float: left;
+    width: 95%;
+    padding: auto;
+}
+
+.recent-post-title{
+    margin: 20px;
+}
+
+.main-content .post
+{
+    width: 95%;
+    height: 270px;
+    margin: 10px 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.main-content .post .post-img
+{
+    width: 40%;
+    margin: 5px;
+    height: 95%;
+    float: left;
+}
+.post-preview
+{
+    margin-left: 10px;
+}
